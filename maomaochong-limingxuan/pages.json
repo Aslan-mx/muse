@@ -1,0 +1,132 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "电影"
+			}
+		},
+		{
+			"path": "pages/index/buy-ticket-list/index",
+			"style": {
+				"navigationBarTitleText": "电影"
+			}
+		},
+		{
+			"path": "pages/index/buy-ticket-list/click-ticket-list/index",
+			"style": {
+				"navigationBarTitleText": "电影院"
+			}
+		},
+		{
+			"path": "pages/index/place/index",
+			"style": {
+				"navigationBarTitleText": "电影院"
+			}
+		},
+		{
+			"path": "pages/select/index",
+			"style": {
+				"navigationBarTitleText": "购票"
+			}
+		},
+		{
+			"path": "pages/coming-soon/index",
+			"style": {
+				"navigationBarTitleText": "即将上映"
+			}
+		},
+		{
+			"path": "pages/center/index",
+			"style": {
+				"navigationBarTitleText": "影院"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/user/order-list/index",
+			"style": {
+				"navigationBarTitleText": "电影订单"
+			}
+		},
+		{
+			"path": "pages/pay-order/index",
+			"style": {
+				"navigationBarTitleText": "支付订单"
+			}
+		},
+		{
+			"path": "pages/user/order-list/cancellation-order-detail/index",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/user/order-list/await-order-detail/index",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/user/order-list/refund-order-detail/index",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/user/order-list/show-order-detail/index",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/user/order-list/unshow-order-detail/index",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"app-plus": {
+			"titleNView": false
+		},
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uView",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#333333",
+		"fontSize": "24rpx",
+		"selectedColor": "#FC7284",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/index.png",
+				"selectedIconPath": "static/index-selected.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/center/index",
+				"iconPath": "static/center.png",
+				"selectedIconPath": "static/center-selected.png",
+				"text": "影院"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"iconPath": "static/user.png",
+				"selectedIconPath": "static/user-selected.png",
+				"text": "我的"
+			}
+		]
+	}
+}
